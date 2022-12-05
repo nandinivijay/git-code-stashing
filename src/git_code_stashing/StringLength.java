@@ -7,6 +7,7 @@ public class StringLength {
 
 		System.out.println(wordLength("Hello"));
 		System.out.println(wordLengthString("Hello"));
+		System.out.println( wordconcat("abc","pqr"));
 	}
 	
 	public static int wordLength(String s)
@@ -18,4 +19,12 @@ public class StringLength {
 	{
 		return s;		
 	}
+	
+	public static String wordconcat(String s,String t)
+		{
+			
+			return s+t;		
+		}
+	
+	
 }
