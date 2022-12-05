@@ -22,7 +22,7 @@ public class StringLength {
 	
 	public static String wordconcat(String s,String t)
 		{
-			
+		System.out.println("second String"+t);	
 			return s+t;		
 		}
 	
